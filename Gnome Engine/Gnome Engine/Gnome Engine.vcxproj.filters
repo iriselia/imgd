@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine Space">
+      <UniqueIdentifier>{b71a3764-91c5-4b78-ac67-3c32200c6320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Space\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Test Space">
+      <UniqueIdentifier>{1e5d29be-b02b-4c36-bb23-16168e2c6742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Space\Header Files">
+      <UniqueIdentifier>{d1dff77f-3ce0-4db4-882f-87b34e0afbc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Space\Source Files">
+      <UniqueIdentifier>{a2e77181-7e55-4875-86e8-72c8904fdd9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rogue Space">
+      <UniqueIdentifier>{91ac2620-94e3-409f-81ea-4d85dc77be7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rogue Space\Header Files">
+      <UniqueIdentifier>{ed99d8e5-a8bf-4877-a856-7c8493368a50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rogue Space\Source Files">
+      <UniqueIdentifier>{c3dbbaa5-9895-4672-b9cb-18d099b264e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConnectX Space">
+      <UniqueIdentifier>{47fa3847-62a4-4f20-949c-691ef03287f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConnectX Space\Header Files">
+      <UniqueIdentifier>{cdc7ebed-4fcb-4eaa-8720-f1fbe8a3ebf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConnectX Space\Source Files">
+      <UniqueIdentifier>{d5b76efa-3fb0-42de-ba71-a263289ff18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine Space\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LogManager.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stopWatch.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PD Curses\curses.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PD Curses\panel.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CycleManager.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Cell.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pile.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMap.h">
+      <Filter>Test Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGame.h">
+      <Filter>Test Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestGameInfo.h">
+      <Filter>Test Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CurrentGameInfo.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectXBoard.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectXGameInfo.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectXGame.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="curses.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MinMaxSearcher.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Minimax.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectXPlayer.h">
+      <Filter>ConnectX Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RogueGameInfo.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RogueGame.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Dungeon.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomWalker.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumWalker.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FEUnit.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FEBattleField.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FEStatViewer.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Engine Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FEAIInterface.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFEAI.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FEConsole.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneticAI.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIBreeder.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleFEAI2.h">
+      <Filter>Rogue Space\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Gnome Engine.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LogManager.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stopWatch.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LinkedList.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CycleManager.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Cell.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pile.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestMap.cpp">
+      <Filter>Test Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Engine Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGame.cpp">
+      <Filter>Test Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectXBoard.cpp">
+      <Filter>ConnectX Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectXGame.cpp">
+      <Filter>ConnectX Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>ConnectX Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MinMaxSearcher.cpp">
+      <Filter>ConnectX Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Minimax.cpp">
+      <Filter>ConnectX Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectXPlayer.cpp">
+      <Filter>ConnectX Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RogueGame.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Dungeon.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomWalker.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NumWalker.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FEUnit.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FEBattleField.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FEStatViewer.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FEAIInterface.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFEAI.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FEConsole.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneticAI.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIBreeder.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleFEAI2.cpp">
+      <Filter>Rogue Space\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Gnome Engine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
